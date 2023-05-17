@@ -1,14 +1,16 @@
 # SRSTS & SRSTS v2
 [SRSTS](https://arxiv.org/pdf/2207.07253v2.pdf) is an effective single shot text spotter which decouples text recognition from detection. It's published in ACM Multimedia 2022. [SRSTS v2](https://arxiv.org/pdf/2207.07253.pdf) the extended version which redesigns the text detection module to enable the collaborative optimization and mutual enhancement between text detection and recogntion.
+
 # SRSTS
 ## Training
-To be released
+To be released.
 
 ## Testing
-You can download benchmarks from [link]()(code: ) and change the root in config file
+You can download benchmarks from [BaiduNetDisk](https://pan.baidu.com/s/1Mob5nzDREu0eqzbAQZqNcA
+)(code: cctq) [Google Drive](https://drive.google.com/drive/folders/1kVLtz_prtEe3hzNC-9kTV5HH9xx67bkp) or and change the root in config file.
 
-You can download the trained weights from this [link](https://pan.baidu.com/s/1Bcf73wCW6VM0cirVCmCzQw)(code: hf8a).
-### Evaluate the performance 
+You can download the trained models from [BaiduNetDisk](https://pan.baidu.com/s/1Bcf73wCW6VM0cirVCmCzQw) (code: hf8a) or [Google Drive](https://drive.google.com/drive/folders/1mMJwkzM7wxvaGY53HG9uhELtgg7vObdy).
+### Performance Evaluation
 
 ```
 python scripts/test_model.py --config-file="path to the config file" --ckpt="path to your ckpt"
@@ -31,7 +33,7 @@ python scripts/test_model.py --config-file="./configs/evaluation/v1/ctw.yaml" --
 ```
 
 # SRSTS v2
-To be released
+To be released.
 
 # Citation
 Please cite the related works in your publications if it helps your research:
