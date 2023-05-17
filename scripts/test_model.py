@@ -2,8 +2,8 @@
 根据args选择对应的yaml进行测评
 usage: python scripts/test_model.py --config-file="" --ckpt=""
 tt : python scripts/test_model.py --config-file="./configs/evaluation/v1/tt.yaml" --ckpt="/data/wujingjing/save_models/tt_best.pth"
-ic15 : python scripts/test_model.py --config-file="./configs/evaluation/v1/ic15.yaml" --ckpt="/data/wujingjing/save_models/ori_finetune_90_0.pth"
-ctw : python scripts/test_model.py --config-file="./configs/evaluation/v1/ctw.yaml" --ckpt="/data/wujingjing/save_models/ctw_finetune_v1_0_800.pth"
+ic15 : python scripts/test_model.py --config-file="./configs/evaluation/v1/ic15.yaml" --ckpt="/data/wujingjing/save_models/ic15_best.pth"
+ctw : python scripts/test_model.py --config-file="./configs/evaluation/v1/ctw.yaml" --ckpt="/data/wujingjing/save_models/ctw_best.pth"
 
 """
 import argparse
@@ -14,12 +14,12 @@ sys.path.append("/data/wujingjing/2023_05/srsts") # path to current project
 from configs import config as cfg
 from utils.logger import setup_logger,print_args
 from utils.inference import inference
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 
 def main():
     parser = argparse.ArgumentParser(description="Inferece Procedure of SRSTS")
     parser.add_argument("--config-file",default="./configs/evaluation/v1/ic15.yaml", help="path to config")
-    parser.add_argument("--ckpt", default="/data/wujingjing/save_models/ori_finetune_90_0.pth",help="path to model weight")
+    parser.add_argument("--ckpt", default="",help="path to model weight")
     parser.add_argument("--out", default="output/",help="path to model weight")
     parser.add_argument("--vis", action="store_true",help="whether to visualize the results")
     parser.add_argument("--lexicon_type", default=0,type=int,help="whether to visualize the results")
