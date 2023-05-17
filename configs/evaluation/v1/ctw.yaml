@@ -1,0 +1,17 @@
+MAX_LENGTH: 30
+ALPHABET: '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' # 
+MODEL:
+    TYPE: "v1"
+    SAMPLE_POINT_NUMS: 30
+TEST:
+    OFFICIAL_LEXICON: True
+    ROOT:  "/data/wujingjing/data/"
+    NAME: "ctw"
+    FIX_MAX: True
+    MAX_SIZE: 704
+
+    SCORE_THRESH: 0.8
+    NMS_THRESH: 0.3
+    REC_THRESH: 0.72
+    MIN_LEN: 0
+

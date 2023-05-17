@@ -1,0 +1,12 @@
+MODEL:
+    TYPE: "v1"
+TEST:
+    ROOT:  "/data/wujingjing/data/icdar2015/"
+    NAME: "ic15"
+    FIX_MAX: True
+    SCORE_THRESH: 0.8
+    NMS_THRESH: 0.3
+    REC_THRESH: 0.81
+    GRID_MODE: "bilinear"
+    MIN_LEN: 3
+    OFFICIAL_LEXICON: False

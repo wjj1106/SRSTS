@@ -1,0 +1,8 @@
+setup.py
+nms/cpu_nms.pyx
+nms/gpu_nms.pyx
+nms/nms_kernel.cu
+nms.egg-info/PKG-INFO
+nms.egg-info/SOURCES.txt
+nms.egg-info/dependency_links.txt
+nms.egg-info/top_level.txt

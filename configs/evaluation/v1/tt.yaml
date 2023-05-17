@@ -1,0 +1,5 @@
+MODEL:
+    TYPE: "v1"
+TEST:
+    ROOT:  "/data/wujingjing/data/totaltext/"
+    NAME: "tt"
