@@ -7,7 +7,7 @@ To be released.
 
 ## Testing
 You can download benchmarks from [BaiduNetDisk](https://pan.baidu.com/s/1Mob5nzDREu0eqzbAQZqNcA
-)(code: cctq) [Google Drive](https://drive.google.com/drive/folders/1kVLtz_prtEe3hzNC-9kTV5HH9xx67bkp) or and change the root in config file.
+)(code: cctq) or [Google Drive](https://drive.google.com/drive/folders/1kVLtz_prtEe3hzNC-9kTV5HH9xx67bkp) and change the root in config file.
 
 You can download the trained models from [BaiduNetDisk](https://pan.baidu.com/s/1Bcf73wCW6VM0cirVCmCzQw) (code: hf8a) or [Google Drive](https://drive.google.com/drive/folders/1mMJwkzM7wxvaGY53HG9uhELtgg7vObdy).
 ### Performance Evaluation
